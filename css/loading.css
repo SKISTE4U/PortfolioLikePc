@@ -1,0 +1,19 @@
+#loading{
+    width: 100%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+#loading .one_circle{
+    width: 10px;
+    height: 10px;
+    background: #0090ff;
+    /* opacity: 0; */
+    border-radius: 50%;
+    position: absolute;
+    transform-origin: 50% -20px;
+    animation: loading_1circle infinite 2s;
+}
