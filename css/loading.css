@@ -8,12 +8,13 @@
     align-items: center;
 }
 #loading .one_circle{
-    width: 10px;
-    height: 10px;
-    background: #0090ff;
-    /* opacity: 0; */
-    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    background: var(--dark_clouds);
+    opacity: 0;
+    /* border-radius: 50%; */
     position: absolute;
-    transform-origin: 50% -20px;
-    animation: loading_1circle infinite 2s;
+    /* transform-origin: 50% -20px; */
+    animation: loading_1circle infinite 2s; /* cube */
+    animation: loading_s infinite 2.3s; /* path */
 }
