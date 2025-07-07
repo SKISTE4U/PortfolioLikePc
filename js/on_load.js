@@ -1,0 +1,1 @@
+paste_clouds()                  // Paste clouds in login page
