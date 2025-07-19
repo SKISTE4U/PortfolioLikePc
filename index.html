@@ -8,11 +8,12 @@
     <link rel="stylesheet" href="css/login_page.css">
     <link rel="stylesheet" href="css/keyframes.css">
     <link rel="stylesheet" href="css/loading.css">
+    <link rel="stylesheet" href="css/workspace.css">
     <script src="js/main.js"></script>
     <script src="js/login_page.js"></script>
 </head>
 <body>
-    <div id="main_wrapper">
+    <div id="main_wrapper" class="one_screen">
         <div id="login_page" onload="paste_clouds()">
             <div class="clouds_zone">
                 <!-- <img src="assets/cloud_orange1.png" style="left: 15%; bottom: -2%; animation-duration: 10s; animation-delay: 1s; width: 800px; opacity: .5;" alt="" srcset=""> -->
@@ -22,23 +23,34 @@
             </div>
             <div class="wrapper">
                 <span>Stepan</span>
-                <button onclick="go_to_workspace()">Login</button>
+                <button onclick="go_to_screen('workspace')">Login</button>
             </div>
         </div>
     </div>
     <div id="loading">
         <div class="one_circle" style="animation-delay: .1s;"></div>
+        <div class="one_circle" style="animation-delay: .15s;"></div>
         <div class="one_circle" style="animation-delay: .2s;"></div>
-        <div class="one_circle" style="animation-delay: .3s;"></div>
-        <div class="one_circle" style="animation-delay: .4s;"></div>
-        <div class="one_circle" style="animation-delay: .5s;"></div>
+        <div class="one_circle" style="animation-delay: .25s;"></div>
+        <div class="one_circle" style="animation-delay: .30s;"></div>
         <!-- <div class="one_circle" style="animation-delay: .6s;"></div> -->
         <!-- <div class="one_circle" style="animation-delay: .7s;"></div>
         <div class="one_circle" style="animation-delay: .8s;"></div>
         <div class="one_circle" style="animation-delay: .9s;"></div>
         <div class="one_circle" style="animation-delay: 1s;"></div> -->
     </div>
-    <div id="workspace"></div>
+    <div id="workspace" class="one_screen">
+        <div class="main_screen">
+            Here we get logos 
+        </div>
+        <div class="footer">
+            <div class="win_logo">
+                
+            </div>
+            <div class="current_apps"></div>
+            <div class="tray"></div>
+        </div>
+    </div>
 
     <script src="js/on_load.js"></script>
 </body>
