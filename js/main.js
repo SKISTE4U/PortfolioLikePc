@@ -19,7 +19,7 @@ function show_loading_page(time_for_show = 3, opacity_dur = .5) {
 }
 function go_to_screen(screen) {
     let loading_dur = .5
-    show_loading_page(2,loading_dur)
+    show_loading_page(1,loading_dur) // SET BACK TO 2
     setTimeout(function(){
         let all_screens = document.querySelectorAll('.one_screen')
         for (let x = 0; x < all_screens.length; x++) {
